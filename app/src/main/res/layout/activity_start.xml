@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.mahmoud.colledgegame.StartActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background">
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:src="@drawable/img3"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+    <Button
+        android:id="@+id/starTimetButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Play With Time"
+        android:background="#FFF"
+        android:layout_margin="5dp"
+
+        android:layout_weight="1"/>
+    <Button
+        android:id="@+id/startShotButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Play With Shots"
+        android:layout_margin="5dp"
+        android:background="#FFF"
+        android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>
